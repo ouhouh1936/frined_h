@@ -1,0 +1,9 @@
+extends ../layouts/main.pug
+
+block content
+    each data in friendList
+        h3 #{data.name}
+        h3 #{data.school} 
+        h3 #{data.age} 살
+        h3 #{data.grade} 학년
+        hr
